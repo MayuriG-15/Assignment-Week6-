@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose = "2">
+  <parameter name = "url" value = "https://dev57553.service-now.com/"></parameter>
+  <parameter name = "username" value ="admin"></parameter>
+  <parameter name = "password" value ="2oaD6KN$q$vN"></parameter>
+  <test thread-count="4" name="Test">
+    <classes>
+      <class name="week6.assgn1.CreateNewCaller"/>
+      <class name="week6.assgn1.CreateProposal"/> 
+      <class name="week6.assgn1.OrderingMobile"/> 
+      <class name="week6.assgn1.KnowledgeDetails"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
